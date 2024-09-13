@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		719C9BD42C94567E0007F295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719C9BBB2C94567C0007F295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719C9BC22C94567C0007F295;
+			remoteInfo = SummonShogiClassicOnlineBattleEdition;
+		};
+		719C9BDE2C94567E0007F295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719C9BBB2C94567C0007F295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719C9BC22C94567C0007F295;
+			remoteInfo = SummonShogiClassicOnlineBattleEdition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		719C9BC32C94567C0007F295 /* SummonShogiClassicOnlineBattleEdition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummonShogiClassicOnlineBattleEdition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		719C9BD32C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummonShogiClassicOnlineBattleEditionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		719C9BDD2C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummonShogiClassicOnlineBattleEditionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		719C9BF12C945E4B0007F295 /* Exceptions for "SummonShogiClassicOnlineBattleEdition" folder in "SummonShogiClassicOnlineBattleEdition" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 719C9BC22C94567C0007F295 /* SummonShogiClassicOnlineBattleEdition */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		719C9BC52C94567C0007F295 /* SummonShogiClassicOnlineBattleEdition */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				719C9BF12C945E4B0007F295 /* Exceptions for "SummonShogiClassicOnlineBattleEdition" folder in "SummonShogiClassicOnlineBattleEdition" target */,
+			);
+			path = SummonShogiClassicOnlineBattleEdition;
+			sourceTree = "<group>";
+		};
+		719C9BD62C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SummonShogiClassicOnlineBattleEditionTests;
+			sourceTree = "<group>";
+		};
+		719C9BE02C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SummonShogiClassicOnlineBattleEditionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719C9BC02C94567C0007F295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719C9BD02C94567E0007F295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719C9BDA2C94567E0007F295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		719C9BBA2C94567C0007F295 = {
+			isa = PBXGroup;
+			children = (
+				719C9BC52C94567C0007F295 /* SummonShogiClassicOnlineBattleEdition */,
+				719C9BD62C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionTests */,
+				719C9BE02C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionUITests */,
+				719C9BC42C94567C0007F295 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		719C9BC42C94567C0007F295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719C9BC32C94567C0007F295 /* SummonShogiClassicOnlineBattleEdition.app */,
+				719C9BD32C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionTests.xctest */,
+				719C9BDD2C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		719C9BC22C94567C0007F295 /* SummonShogiClassicOnlineBattleEdition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719C9BE72C94567E0007F295 /* Build configuration list for PBXNativeTarget "SummonShogiClassicOnlineBattleEdition" */;
+			buildPhases = (
+				719C9BBF2C94567C0007F295 /* Sources */,
+				719C9BC02C94567C0007F295 /* Frameworks */,
+				719C9BC12C94567C0007F295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				719C9BC52C94567C0007F295 /* SummonShogiClassicOnlineBattleEdition */,
+			);
+			name = SummonShogiClassicOnlineBattleEdition;
+			packageProductDependencies = (
+			);
+			productName = SummonShogiClassicOnlineBattleEdition;
+			productReference = 719C9BC32C94567C0007F295 /* SummonShogiClassicOnlineBattleEdition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		719C9BD22C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719C9BEA2C94567E0007F295 /* Build configuration list for PBXNativeTarget "SummonShogiClassicOnlineBattleEditionTests" */;
+			buildPhases = (
+				719C9BCF2C94567E0007F295 /* Sources */,
+				719C9BD02C94567E0007F295 /* Frameworks */,
+				719C9BD12C94567E0007F295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719C9BD52C94567E0007F295 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				719C9BD62C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionTests */,
+			);
+			name = SummonShogiClassicOnlineBattleEditionTests;
+			packageProductDependencies = (
+			);
+			productName = SummonShogiClassicOnlineBattleEditionTests;
+			productReference = 719C9BD32C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		719C9BDC2C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719C9BED2C94567E0007F295 /* Build configuration list for PBXNativeTarget "SummonShogiClassicOnlineBattleEditionUITests" */;
+			buildPhases = (
+				719C9BD92C94567E0007F295 /* Sources */,
+				719C9BDA2C94567E0007F295 /* Frameworks */,
+				719C9BDB2C94567E0007F295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719C9BDF2C94567E0007F295 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				719C9BE02C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionUITests */,
+			);
+			name = SummonShogiClassicOnlineBattleEditionUITests;
+			packageProductDependencies = (
+			);
+			productName = SummonShogiClassicOnlineBattleEditionUITests;
+			productReference = 719C9BDD2C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		719C9BBB2C94567C0007F295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					719C9BC22C94567C0007F295 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					719C9BD22C94567E0007F295 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 719C9BC22C94567C0007F295;
+					};
+					719C9BDC2C94567E0007F295 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 719C9BC22C94567C0007F295;
+					};
+				};
+			};
+			buildConfigurationList = 719C9BBE2C94567C0007F295 /* Build configuration list for PBXProject "SummonShogiClassicOnlineBattleEdition" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 719C9BBA2C94567C0007F295;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 719C9BC42C94567C0007F295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719C9BC22C94567C0007F295 /* SummonShogiClassicOnlineBattleEdition */,
+				719C9BD22C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionTests */,
+				719C9BDC2C94567E0007F295 /* SummonShogiClassicOnlineBattleEditionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		719C9BC12C94567C0007F295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719C9BD12C94567E0007F295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719C9BDB2C94567E0007F295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719C9BBF2C94567C0007F295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719C9BCF2C94567E0007F295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719C9BD92C94567E0007F295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		719C9BD52C94567E0007F295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719C9BC22C94567C0007F295 /* SummonShogiClassicOnlineBattleEdition */;
+			targetProxy = 719C9BD42C94567E0007F295 /* PBXContainerItemProxy */;
+		};
+		719C9BDF2C94567E0007F295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719C9BC22C94567C0007F295 /* SummonShogiClassicOnlineBattleEdition */;
+			targetProxy = 719C9BDE2C94567E0007F295 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		719C9BE52C94567E0007F295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		719C9BE62C94567E0007F295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		719C9BE82C94567E0007F295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SummonShogiClassicOnlineBattleEdition/Preview Content\"";
+				DEVELOPMENT_TEAM = AGS5SL5799;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SummonShogiClassicOnlineBattleEdition/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "このアプリは対戦相手と接続するためにローカルネットワークを使用します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightSprits.SummonShogiClassicOnlineBattleEdition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		719C9BE92C94567E0007F295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SummonShogiClassicOnlineBattleEdition/Preview Content\"";
+				DEVELOPMENT_TEAM = AGS5SL5799;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SummonShogiClassicOnlineBattleEdition/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "このアプリは対戦相手と接続するためにローカルネットワークを使用します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightSprits.SummonShogiClassicOnlineBattleEdition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		719C9BEB2C94567E0007F295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AGS5SL5799;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightSprits.SummonShogiClassicOnlineBattleEditionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummonShogiClassicOnlineBattleEdition.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SummonShogiClassicOnlineBattleEdition";
+			};
+			name = Debug;
+		};
+		719C9BEC2C94567E0007F295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AGS5SL5799;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightSprits.SummonShogiClassicOnlineBattleEditionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummonShogiClassicOnlineBattleEdition.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SummonShogiClassicOnlineBattleEdition";
+			};
+			name = Release;
+		};
+		719C9BEE2C94567E0007F295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AGS5SL5799;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightSprits.SummonShogiClassicOnlineBattleEditionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SummonShogiClassicOnlineBattleEdition;
+			};
+			name = Debug;
+		};
+		719C9BEF2C94567E0007F295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AGS5SL5799;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightSprits.SummonShogiClassicOnlineBattleEditionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SummonShogiClassicOnlineBattleEdition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		719C9BBE2C94567C0007F295 /* Build configuration list for PBXProject "SummonShogiClassicOnlineBattleEdition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719C9BE52C94567E0007F295 /* Debug */,
+				719C9BE62C94567E0007F295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719C9BE72C94567E0007F295 /* Build configuration list for PBXNativeTarget "SummonShogiClassicOnlineBattleEdition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719C9BE82C94567E0007F295 /* Debug */,
+				719C9BE92C94567E0007F295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719C9BEA2C94567E0007F295 /* Build configuration list for PBXNativeTarget "SummonShogiClassicOnlineBattleEditionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719C9BEB2C94567E0007F295 /* Debug */,
+				719C9BEC2C94567E0007F295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719C9BED2C94567E0007F295 /* Build configuration list for PBXNativeTarget "SummonShogiClassicOnlineBattleEditionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719C9BEE2C94567E0007F295 /* Debug */,
+				719C9BEF2C94567E0007F295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 719C9BBB2C94567C0007F295 /* Project object */;
+}
